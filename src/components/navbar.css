@@ -1,0 +1,7 @@
+.navbar__main{
+    display: flex;
+    height: 100vh;
+    width: 30%;
+    flex-direction:column;
+    background-color: rgb(27, 120, 242);
+}
