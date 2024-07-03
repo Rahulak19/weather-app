@@ -1,0 +1,24 @@
+.main__container {
+  display: flex;
+  flex-direction: column;
+  min-height: 91vh;
+  height: auto;
+  width: 100%;
+  // background-color: #0e2b3d;
+  background-image: linear-gradient(#4e7c91, #0e2b3d);
+  padding: 2rem;
+}
+.detail__content {
+  display: flex;
+  width: 100%;
+}
+.nav__content {
+  display: flex;
+  width: 20%;
+}
+.info__content {
+  display: flex;
+  width: 80%;
+  // background-color: red;
+  padding: 15px;
+}

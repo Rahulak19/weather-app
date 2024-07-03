@@ -1,0 +1,17 @@
+.navbar__main {
+  display: flex;
+  height: 80vh;
+  width: 20%;
+  flex-direction: column;
+  // background-color: rgb(27, 120, 242);
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.nav__list {
+}
+ul {
+  list-style: none;
+  li {
+    margin: 2rem 2.5rem;
+  }
+}
