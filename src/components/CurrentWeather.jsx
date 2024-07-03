@@ -4,8 +4,12 @@ import RainyCloud from "../assets/icons/RainyCloud.svg";
 import Drop from "../assets/icons/Drop.svg";
 import DownArrow from "../assets/icons/DownArrow.svg";
 import Wind from "../assets/icons/Wind.svg";
+import { useSelector, useDispatch } from "react-redux";
 
-const CurrentWeather = ({ weather }) => {
+const CurrentWeather = () => {
+  const weatherData = useSelector((state) => state.weatherData.data);
+  const forecastData = useSelector((state) => state.forecastData.data);
+
   return (
     <>
       <div className="current__weath">

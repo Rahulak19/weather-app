@@ -1,10 +1,16 @@
 import CurrentWeather from "./CurrentWeather";
-
-const WeatherInfo = () => {
+import WeatherForecast from "./WeatherForecast";
+import "../styles/weatherInfo.scss";
+const WeatherInfo = ({ weather }) => {
   return (
     <>
       <div className="weather__info__main">
-        <CurrentWeather />
+        <div className="weather__info__current">
+          <CurrentWeather />
+        </div>
+        <div className="weather__forecast__main">
+          <WeatherForecast />
+        </div>
       </div>
     </>
   );
