@@ -38,10 +38,19 @@
   border: 2px solid white;
   border-radius: 30px;
   display: flex;
-  //   gap: 25px;
   padding: 5px 10px;
   justify-content: space-around;
   align-items: center;
+}
+.weather__period__list div {
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 15px;
+  transition: background-color 0.3s;
+}
+.weather__period__list .active {
+  background-color: white;
+  color: #6892a3;
 }
 .weather__data__li {
   display: flex;
@@ -60,8 +69,6 @@
   border-radius: 10px;
   justify-content: space-around;
   align-items: center;
-  //   background-color: #bfe0ed;
-  //   opacity: 0.9;
 }
 .weather__data__li {
   color: #ffffff;
@@ -73,16 +80,14 @@
   margin-top: 5px;
 }
 .weather__fo__img {
-  width: 40px;
+  width: 60px;
 }
-.weather__fo__time {
-  .fo__curr__day {
-    font-size: 1.3rem;
-    font-weight: 500;
-  }
-  .fo__curr__time {
-    font-size: 0.8rem;
-  }
+.weather__fo__time .fo__curr__day {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.weather__fo__time .fo__curr__time {
+  font-size: 0.8rem;
 }
 .weather__fo__degree {
   font-size: 1.5rem;
