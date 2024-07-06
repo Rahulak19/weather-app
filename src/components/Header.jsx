@@ -50,14 +50,14 @@ const Header = ({ currCity, onSearch }) => {
             />
           </div>
         </div>
-        <div className="header__right">
+        {/* <div className="header__right">
           <div className="bell__icon">
             <img className="location__img" src={Bell} alt="Bell" />
           </div>
           <div className="profile__icon">
             <img className="location__img" src={Profile} alt="Profile" />
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );

@@ -9,13 +9,14 @@
 }
 .wea__title {
   margin-left: 20px;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 500;
+  margin-bottom: 10px;
 }
 .weather__timeline {
   display: flex;
   flex-direction: column;
-  width: 500px;
+  width: 400px;
   min-height: 450px;
   height: auto;
   border-radius: 9px;

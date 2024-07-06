@@ -66,8 +66,8 @@ const CurrentWeather = () => {
         <div className="wind__title">Atm.pressure</div>
         <div className="wind__details">
           <div className="wind__details__main">
-            <div className="wind__speed">{pressure}</div>
-            <div className="air__spd">mmHg</div>
+            <div className="wind__speed">{pressure} </div>
+            <div className="air__spd"> mmHg</div>
           </div>
           <div className="wind__icon">
             <img className="wind__img" src={DownArrow} alt="Down arrow" />

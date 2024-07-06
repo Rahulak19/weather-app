@@ -6,10 +6,10 @@ const Navbar = () => {
         <div className="nav__list">
           <ul>
             <li>Weather</li>
-            <li>News</li>
-            <li>Map</li>
+            {/* <li>News</li>
+            <li>Map</li> */}
             <li>Settings</li>
-            <li>Log out</li>
+            {/* <li>Log out</li> */}
           </ul>
         </div>
       </div>

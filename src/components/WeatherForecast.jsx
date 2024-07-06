@@ -63,8 +63,8 @@ const WeatherForecast = () => {
 
   return (
     <div className="weather__details__forecast">
+      <div className="wea__title">Weather Forecast</div>
       <div className="weather__forecast__main">
-        <div className="wea__title">Weather Forecast</div>
         <div className="weather__timeline">
           <div className="weather__period">
             <div className="weather__period__list">

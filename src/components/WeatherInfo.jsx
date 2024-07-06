@@ -1,6 +1,7 @@
 import CurrentWeather from "./CurrentWeather";
 import WeatherForecast from "./WeatherForecast";
 import "../styles/weatherInfo.scss";
+import HourlyForecast from "./HourlyForecast";
 const WeatherInfo = ({ weather }) => {
   return (
     <>
@@ -10,6 +11,7 @@ const WeatherInfo = ({ weather }) => {
         </div>
         <div className="weather__forecast__main">
           <WeatherForecast />
+          <HourlyForecast city={"chennai"} />
         </div>
       </div>
     </>

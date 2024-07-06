@@ -46,7 +46,6 @@ const Dashboard = () => {
         </div>
         <div className="info__content">
           <WeatherInfo weather={weatherData} />
-          {/* <CurrentWeather forecast={forecastData} /> */}
         </div>
       </div>
     </div>
