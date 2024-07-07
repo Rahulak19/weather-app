@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useSelector } from "react-redux";
 import "../styles/weatherForecast.scss";
-import RainyCloud from "../assets/icons/RainyCloud.svg";
 
 const WeatherForecast = () => {
   const [selectedPeriod, setSelectedPeriod] = useState("hourly");

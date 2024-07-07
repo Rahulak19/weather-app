@@ -1,28 +1,10 @@
-import React, { useEffect, useState } from "react";
-import axios from "axios";
-import { Line } from "react-chartjs-2";
 import "chart.js/auto"; // Necessary for Chart.js 3.x
-import "../styles/hourlyForecast.scss";
+import React from "react";
+import { Line } from "react-chartjs-2";
 import { useSelector } from "react-redux";
+import "../styles/hourlyForecast.scss";
 
-const HourlyForecast = ({ city }) => {
-  //const [forecastData, setForecastData] = useState([]);
-  const API_KEY = "b65726c1fc5915f55e85a7a7264afaad";
-
-  //   useEffect(() => {
-  //     const fetchData = async () => {
-  //       try {
-  //         const response = await axios.get(
-  //           `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${API_KEY}&units=metric`
-  //         );
-  //         setForecastData(response.data.list);
-  //       } catch (error) {
-  //         console.error("Error fetching weather data:", error);
-  //       }
-  //     };
-  //     fetchData();
-  //   }, [city]);
-
+const HourlyForecast = () => {
   const forecastData = useSelector((state) => state.forecastData.data);
   const hourlyData = forecastData.slice(0, 8).map((entry) => ({
     time: new Date(entry.dt_txt).getHours(),

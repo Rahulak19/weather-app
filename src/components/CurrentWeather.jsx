@@ -1,10 +1,9 @@
 import React from "react";
-import "../styles/currentWeather.scss";
 import { useSelector } from "react-redux";
-import RainyCloud from "../assets/icons/RainyCloud.svg";
-import Drop from "../assets/icons/Drop.svg";
 import DownArrow from "../assets/icons/DownArrow.svg";
+import Drop from "../assets/icons/Drop.svg";
 import Wind from "../assets/icons/Wind.svg";
+import "../styles/currentWeather.scss";
 
 const CurrentWeather = () => {
   const weatherData = useSelector((state) => state.weatherData.data);
@@ -19,7 +18,6 @@ const CurrentWeather = () => {
   }
 
   const {
-    name,
     main: { temp, humidity, pressure },
     weather,
     wind: { speed: windSpeed },
