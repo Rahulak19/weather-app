@@ -44,7 +44,7 @@ const Dashboard = () => {
           <Navbar />
         </div>
         <div className="info__content">
-          <WeatherInfo weather={weatherData} />
+          <WeatherInfo />
         </div>
       </div>
     </div>
