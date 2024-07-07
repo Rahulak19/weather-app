@@ -1,7 +1,7 @@
 import CurrentWeather from "./CurrentWeather";
 import WeatherForecast from "./WeatherForecast";
 import HourlyForecast from "./HourlyForecast";
-import "../styles/weatherInfo.scss";
+import "../styles/weatherInfoMain.scss";
 const WeatherInfo = () => {
   return (
     <>

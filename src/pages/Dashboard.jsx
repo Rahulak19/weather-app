@@ -1,7 +1,7 @@
 // Dashboard.js
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { addWeatherData, addForecastData } from "../reducers/weatherReducer";
 import Header from "../components/Header";
 import Navbar from "../components/Navbar";
@@ -10,9 +10,6 @@ import "./dashboard.scss";
 
 const Dashboard = () => {
   const dispatch = useDispatch();
-  const weatherData = useSelector((state) => state.weatherData.data);
-  const forecastData = useSelector((state) => state.forecastData.data);
-
   const [city, setCity] = useState("Chennai");
   const API_KEY = "b65726c1fc5915f55e85a7a7264afaad";
 
