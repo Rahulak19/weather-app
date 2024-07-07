@@ -24,8 +24,10 @@ const WeatherForecast = () => {
               <div className="fo__curr__time">{time}</div>
             ) : (
               <>
-                <div className="fo__curr__day">{day}</div>
-                <div className="fo__curr__time">{fullDate}</div>
+                <div className="day__time__fo">
+                  <div className="fo__curr__day">{day}</div>
+                  <div className="fo__curr__time">{fullDate}</div>
+                </div>
               </>
             )}
           </div>

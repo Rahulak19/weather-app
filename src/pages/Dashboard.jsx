@@ -3,7 +3,6 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useDispatch, useSelector } from "react-redux";
 import { addWeatherData, addForecastData } from "../reducers/weatherReducer";
-import CurrentWeather from "../components/CurrentWeather";
 import Header from "../components/Header";
 import Navbar from "../components/Navbar";
 import WeatherInfo from "../components/WeatherInfo";
